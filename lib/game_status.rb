@@ -35,6 +35,7 @@ def draw?(board)
   end
 end
 
+<<<<<<< HEAD
 def over?(board)
   if  won?(board) || full?(board) || draw?(board) 
     return true
@@ -46,5 +47,7 @@ def winner(board)
     return board[won?(board)[0]]
   end
 end
+=======
+>>>>>>> 6b5e523924b8d53928c7bab9dd92feb71fe310d5
 
 
